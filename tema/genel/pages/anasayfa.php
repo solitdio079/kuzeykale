@@ -61,6 +61,23 @@
 
 
 <section class="vk-content">
+<div class="hero">
+  <iframe
+    src="https://www.youtube.com/embed/oB2wMlE6GAY?autoplay=1&mute=1&loop=1&playlist=oB2wMlE6GAY&controls=0&showinfo=0&rel=0"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    allowfullscreen>
+  </iframe>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div>
+      <h1>Kuzeykale İnşaat</h1>
+      <p>Güvenle Yükselen Yapılar</p>
+    </div>
+  </div>
+</div>
 
 	<div class="vk-home vk-home-default">
 
