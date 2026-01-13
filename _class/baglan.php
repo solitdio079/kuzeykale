@@ -12,14 +12,11 @@
 
 
 
-	$host = 'kuzeykaleinsaat'; // Linux sunucularda değiştirmeyiniz
-
-	$data = 'kuzeykaleinsaat_db'; // Veri tabanı Adını Yazın.
-
-	$user = 'kuzeykaleinsaat_db'; // Veri tabanı Kullanıcı adını yazın
-
-	$pass = '^NxGo]aTTMfT'; // Veri tabanı Şifrenizi Yazın//
-	$port=3306;
+	$host = 'uws0kw8wcc008ogwsskkooos'; // EXACT internal host from Coolify
+$db   = 'default';                // <-- THIS WAS THE BUG
+$user = 'kuzeykaleinsaat_db';
+$pass = '^NxGo]aTTMfT';
+$port = 3306;
 	
 
 
