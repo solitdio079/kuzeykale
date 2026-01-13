@@ -26,7 +26,7 @@ $port = 3306;
 
 	{
 
-		$db = new PDO('mysql:host='.$host.';port='.$port.';dbname='.$data.';charset=UTF8;', $user, $pass);
+		$db = new PDO('mysql:host='.$host.';port='.$port.';dbname='.$db.';charset=UTF8;', $user, $pass);
 
 	}
 
