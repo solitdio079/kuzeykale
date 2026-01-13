@@ -12,7 +12,7 @@
 
 
 
-	$host = 'kuzeykaleinsaat'; // Linux sunucularda değiştirmeyiniz
+	$host = 'host.docker.internal'; // Linux sunucularda değiştirmeyiniz
 
 	$data = 'kuzeykaleinsaat_db'; // Veri tabanı Adını Yazın.
 
