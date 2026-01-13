@@ -13,7 +13,7 @@
 
 
 	$host = 'uws0kw8wcc008ogwsskkooos'; // EXACT internal host from Coolify
-$db   = 'default';                // <-- THIS WAS THE BUG
+$db   = 'kuzeykaleinsaat_db';                // <-- THIS WAS THE BUG
 $user = 'kuzeykaleinsaat_db';
 $pass = '^NxGo]aTTMfT';
 $port = 3306;
