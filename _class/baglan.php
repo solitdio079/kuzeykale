@@ -12,14 +12,16 @@
 
 
 
-	$host = 'host.docker.internal'; // Linux sunucularda değiştirmeyiniz
+	$host = 'kuzeykaleinsaat'; // Linux sunucularda değiştirmeyiniz
 
 	$data = 'kuzeykaleinsaat_db'; // Veri tabanı Adını Yazın.
 
 	$user = 'kuzeykaleinsaat_db'; // Veri tabanı Kullanıcı adını yazın
 
 	$pass = '^NxGo]aTTMfT'; // Veri tabanı Şifrenizi Yazın//
-	$port=49172;
+	$port=3306;
+	
+
 
 
 
