@@ -12,13 +12,14 @@
 
 
 
-	$host = 'kuzeykaleinsaat'; // Linux sunucularda değiştirmeyiniz
+	$host = 'host.docker.internal'; // Linux sunucularda değiştirmeyiniz
 
 	$data = 'kuzeykaleinsaat_db'; // Veri tabanı Adını Yazın.
 
 	$user = 'kuzeykaleinsaat_db'; // Veri tabanı Kullanıcı adını yazın
 
 	$pass = '^NxGo]aTTMfT'; // Veri tabanı Şifrenizi Yazın//
+	$port=49172;
 
 
 
@@ -26,7 +27,7 @@
 
 	{
 
-		$db = new PDO('mysql:host='.$host.';dbname='.$data.';charset=UTF8;', $user, $pass);
+		$db = new PDO('mysql:host='.$host.';port='.$port.';dbname='.$data.';charset=UTF8;', $user, $pass);
 
 	}
 
