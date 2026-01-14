@@ -105,7 +105,7 @@ h6 {
   @media (max-width: 768px) {
     .hero {
       height: 25vh;
-      min-height: 380px;
+      min-height: 300px;
     }
   }
 
