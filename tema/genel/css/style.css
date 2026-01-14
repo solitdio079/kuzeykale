@@ -92,6 +92,13 @@ h6 {
     overflow: hidden;
   }
 
+  @media (max-width: 768px) {
+    .hero {
+      height: 60vh;
+      min-height: 380px;
+    }
+  }
+
   .hero iframe {
     position: absolute;
     top: 50%;

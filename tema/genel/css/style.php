@@ -101,6 +101,12 @@ h6 {
     height: 100vh;
     overflow: hidden;
   }
+  @media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+    min-height: 380px;
+  }
+}
 
   .hero iframe {
     position: absolute;
