@@ -67,23 +67,7 @@
 		<?php if($moduller['alan18'] == "1"){?>
 
 		<div class="vk-baner-slider vk-slider-arrow-image">
-		<div class="hero">
-  <iframe
-    src="https://www.youtube.com/embed/oB2wMlE6GAY?autoplay=1&mute=1&loop=1&playlist=oB2wMlE6GAY&controls=0&showinfo=0&rel=0"
-    frameborder="0"
-    allow="autoplay; fullscreen"
-    allowfullscreen>
-  </iframe>
-
-  <div class="hero-overlay"></div>
-
-  <div class="hero-content">
-    <div>
-      <h1>Kuzeykale İnşaat</h1>
-      <p>Güvenle Yükselen Yapılar</p>
-    </div>
-  </div>
-</div>
+		
 
 
 		<?php $Sorgu = $db->prepare("SELECT * FROM slider WHERE durum = ? AND dil = ? ORDER BY sira ASC");
@@ -131,6 +115,23 @@
 				<?php }?>
 
 			</div>
+			<div class="hero">
+  <iframe
+    src="https://www.youtube.com/embed/oB2wMlE6GAY?autoplay=1&mute=1&loop=1&playlist=oB2wMlE6GAY&controls=0&showinfo=0&rel=0"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    allowfullscreen>
+  </iframe>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div>
+      <h1>Kuzeykale İnşaat</h1>
+      <p>Güvenle Yükselen Yapılar</p>
+    </div>
+  </div>
+</div>
 
 			<!--./vk-banner-->
 
