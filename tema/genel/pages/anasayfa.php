@@ -61,7 +61,13 @@
 
 
 <section class="vk-content">
-<div class="hero">
+
+	<div class="vk-home vk-home-default">
+
+		<?php if($moduller['alan18'] == "1"){?>
+
+		<div class="vk-baner-slider vk-slider-arrow-image">
+		<div class="hero">
   <iframe
     src="https://www.youtube.com/embed/oB2wMlE6GAY?autoplay=1&mute=1&loop=1&playlist=oB2wMlE6GAY&controls=0&showinfo=0&rel=0"
     frameborder="0"
@@ -79,11 +85,6 @@
   </div>
 </div>
 
-	<div class="vk-home vk-home-default">
-
-		<?php if($moduller['alan18'] == "1"){?>
-
-		<div class="vk-baner-slider vk-slider-arrow-image">
 
 		<?php $Sorgu = $db->prepare("SELECT * FROM slider WHERE durum = ? AND dil = ? ORDER BY sira ASC");
 
