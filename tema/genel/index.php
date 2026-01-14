@@ -20,18 +20,18 @@ if (
 
 ?>
 
-<?php $protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,5))=='https'?'https':'http';
+<?php
+$isHttps =
+    (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+    || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https');
 
-$protocol = isset($_SERVER["HTTPS"]) ? 'https://' : 'http://';
+$protocol = $isHttps ? 'https://' : 'http://';
 
-$url=$protocol.$_SERVER["HTTP_HOST"].dirname($_SERVER['PHP_SELF']); 
+$url = $protocol . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
+$sayfalink = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
-$sayfalink = $protocol.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
-
-$dilsay		= $db->query("SELECT * FROM  diller")->rowCount();
-
-$dilyaz  	= $db->query("SELECT * FROM diller WHERE id = '{$_SESSION['k_dil']}'")->fetch(PDO::FETCH_ASSOC);
-
+$dilsay   = $db->query("SELECT * FROM diller")->rowCount();
+$dilyaz   = $db->query("SELECT * FROM diller WHERE id = '{$_SESSION['k_dil']}'")->fetch(PDO::FETCH_ASSOC);
 ?>
 
 <?php require_once('pages/sayac.php');?>
