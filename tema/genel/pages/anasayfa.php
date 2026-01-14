@@ -66,14 +66,7 @@
     allowfullscreen>
   </iframe>
 
-  <div class="hero-overlay"></div>
-
-  <div class="hero-content">
-    <div>
-      <h1>Kuzeykale İnşaat</h1>
-      <p>Güvenle Yükselen Yapılar</p>
-    </div>
-  </div>
+  
 </div>
 
 <section class="vk-content">
@@ -95,7 +88,7 @@
 
 			<?php foreach ( $islem as $Sliderkey => $Sonuc ){?> 
 
-			<div class="vk-banner vk-banner-large vk-banner-mod slider" style="background-image: url(<?php echo tema;?>/uploads/slider/<?php echo $Sonuc['resim']?>);">
+			<!--<div class="vk-banner vk-banner-large vk-banner-mod slider" style="background-image: url(<?php echo tema;?>/uploads/slider/<?php echo $Sonuc['resim']?>);">
 
 				<?php if($moduller['alan22'] == "1"){?><div class="vk-background-overlay vk-background-black _30"></div><?php }?>
 
@@ -131,7 +124,7 @@
 
 				<?php }?>
 
-			</div>
+			</div>-->
 			
 
 			<!--./vk-banner-->
