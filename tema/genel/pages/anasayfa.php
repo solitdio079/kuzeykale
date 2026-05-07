@@ -60,7 +60,7 @@
 
 <div class="hero">
   <iframe
-    src="https://www.youtube.com/embed/P1J_M1wCM9A?si=qF1_Q6aM-CRiuTur?autoplay=1&mute=1&loop=1&playlist=oB2wMlE6GAY&controls=0&showinfo=0&rel=0"
+    src="https://www.youtube.com/embed/P1J_M1wCM9A?autoplay=1&mute=1&loop=1&playlist=P1J_M1wCM9A&controls=0&rel=0"
     frameborder="0"
     allow="autoplay; fullscreen"
     allowfullscreen>
